@@ -11,8 +11,10 @@ Currently, two official plugins are available:
 - Create React App
 - Configured TailwindCSS
 - Header
+- Routing of Application
 - Login form
 - Sign up form
+- Form Validation (useRef Hook)
 
 # Features
 - Login/Sign Up
