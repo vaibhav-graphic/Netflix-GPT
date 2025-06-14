@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 # Netflix GPT
 - Create React App
 - Configured TailwindCSS
+- Header
 
 # Features
 - Login/Sign Up

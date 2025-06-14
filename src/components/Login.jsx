@@ -1,5 +1,9 @@
+import Header from "./Header";
+
 const Login = () => {
-    return <div>Login</div>
+    return <div>
+        <Header />
+    </div>
 };
 
 export default Login;
