@@ -11,6 +11,7 @@ Currently, two official plugins are available:
 - Create React App
 - Configured TailwindCSS
 - Header
+- Login form
 
 # Features
 - Login/Sign Up
