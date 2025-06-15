@@ -15,6 +15,9 @@ Currently, two official plugins are available:
 - Login form
 - Sign up form
 - Form Validation (useRef Hook)
+- Firebase Setup
+- Deploying application ti production
+- Create SignUp User Account
 
 # Features
 - Login/Sign Up

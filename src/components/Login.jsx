@@ -1,12 +1,17 @@
 import Header from "./Header";
 import { useRef, useState } from "react";
 import { checkValidateData } from "../utils/validation";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
+import { auth } from "../utils/firebase";
 
 import { BG_LOGO_IMG } from "../utils/constants";
 
 const Login = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
-  const[errorMessage, setErrorMessage] = useState(null);
+  const [errorMessage, setErrorMessage] = useState(null);
 
   const name = useRef(null);
   const email = useRef(null);
@@ -17,8 +22,54 @@ const Login = () => {
   };
 
   const handleButtonClick = () => {
-    const message = checkValidateData(name.current.value, email.current.value, password.current.value);
+    const message = checkValidateData(
+      isSignInForm ? null : name.current.value,
+      email.current.value,
+      password.current.value
+    );
+
     setErrorMessage(message);
+
+    if (message !== null) {
+      console.log(message);
+      return;
+    }
+
+    if (!isSignInForm) {
+      //Sign Up logic
+      createUserWithEmailAndPassword(
+        auth,
+        email.current.value,
+        password.current.value
+      )
+        .then((userCredential) => {
+          const user = userCredential.user;
+          console.log(user);
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+
+          setErrorMessage(errorCode + " " + errorMessage);
+        });
+    } else {
+      // Sign In logic
+      signInWithEmailAndPassword(
+        auth,
+        email.current.value,
+        password.current.value
+      )
+        .then((userCredential) => {
+          // Signed in
+          const user = userCredential.user;
+          console.log(user);
+        })
+        .catch((error) => {
+          const errorCode = error.code;
+          const errorMessage = error.message;
+          setErrorMessage(errorCode + " " + errorMessage);
+        });
+    }
   };
 
   return (
@@ -37,7 +88,7 @@ const Login = () => {
           </h1>
           {!isSignInForm && (
             <input
-            ref={name}
+              ref={name}
               type="text"
               placeholder="Full Name"
               className="p-4 my-4 w-full bg-gray-700"
