@@ -18,6 +18,8 @@ Currently, two official plugins are available:
 - Firebase Setup
 - Deploying application ti production
 - Create SignUp User Account
+- Implement Sign In user Api
+- Created Redux Store with userSlice
 
 # Features
 - Login/Sign Up
