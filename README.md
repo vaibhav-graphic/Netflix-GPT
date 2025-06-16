@@ -22,6 +22,8 @@ Currently, two official plugins are available:
 - Created Redux Store with userSlice
 - Implemented Signout
 - Update Profile
+- BugFix: Sign up user displayName and profile picture update
+- BugFix: if the user in not loggedIn Redirect to /browse to login Page and vica-versa
 
 # Features
 - Login/Sign Up
