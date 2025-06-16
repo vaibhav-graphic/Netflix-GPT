@@ -20,6 +20,8 @@ Currently, two official plugins are available:
 - Create SignUp User Account
 - Implement Sign In user Api
 - Created Redux Store with userSlice
+- Implemented Signout
+- Update Profile
 
 # Features
 - Login/Sign Up

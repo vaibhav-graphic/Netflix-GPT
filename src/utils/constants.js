@@ -3,3 +3,5 @@ export const LOGO_IMG = "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_p
 export const BG_LOGO_IMG = "https://assets.nflxext.com/ffe/siteui/vlv3/7968847f-3da9-44b3-8bbb-13a46579881f/web/IN-en-20250609-TRIFECTA-perspective_32b70b51-20d4-46db-8a1a-3d5428be5f0e_large.jpg";
 
 export const USER_ICON_LOGO = "https://wallpapers.com/images/hd/netflix-profile-pictures-1000-x-1000-qo9h82134t9nv0j0.jpg";
+
+export const USER_PROFILE_IMG = "https://cdn-icons-png.flaticon.com/512/10337/10337609.png";
