@@ -29,6 +29,14 @@ Currently, two official plugins are available:
 - Add hardcoded value to constant file
 - Register TMDB API && create an app & get access token 
 - Get data from TMDB now playing movies list API
+- Custom hooks for now playing movies
+- Create movie Slice
+- Update the store with movie data
+- Planning for Main container and Secondary Container
+- Fetch data for trailer video
+- update the store with trailer video data
+- Embeded the youtube video and make it autoplay and mute
+- tailwind class to make main container look awesome
 
 # Features
 
