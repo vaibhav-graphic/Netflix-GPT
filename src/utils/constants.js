@@ -11,9 +11,10 @@ export const USER_PROFILE_IMG =
   "https://cdn-icons-png.flaticon.com/512/10337/10337609.png";
 
 export const API_OPTIONS = {
-  method: 'GET',
+  method: "GET",
   headers: {
-    accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2N2U1OWMwODE5MzAyMjA5MzFjNWUxYmIwYmEwYjQzOSIsIm5iZiI6MTc1MDA1MTQ2NS4xNjgsInN1YiI6IjY4NGZhYTg5ZDY2OTIzNWRlMGJiNTUwYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.PIWClVmqvQaMImH6U7ltWgspY4--bfqv9p6hFdF3jzk'
-  }
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2N2U1OWMwODE5MzAyMjA5MzFjNWUxYmIwYmEwYjQzOSIsIm5iZiI6MTc1MDA1MTQ2NS4xNjgsInN1YiI6IjY4NGZhYTg5ZDY2OTIzNWRlMGJiNTUwYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.PIWClVmqvQaMImH6U7ltWgspY4--bfqv9p6hFdF3jzk",
+  },
 };
