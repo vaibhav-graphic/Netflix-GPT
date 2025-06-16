@@ -8,6 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # Netflix GPT
+
 - Create React App
 - Configured TailwindCSS
 - Header
@@ -24,18 +25,23 @@ Currently, two official plugins are available:
 - Update Profile
 - BugFix: Sign up user displayName and profile picture update
 - BugFix: if the user in not loggedIn Redirect to /browse to login Page and vica-versa
+- Unsubscribed to the onAuthStateChange callback
+- Add hardcoded value to constant file
+- Register TMDB API && create an app & get access token 
+- Get data from TMDB now playing movies list API
 
 # Features
+
 - Login/Sign Up
-    - Sign In / Sign up Form
-    - redirect to Brower Page
+  - Sign In / Sign up Form
+  - redirect to Brower Page
 - Browser (after authentication)
-    - Header
-    - Main Movie
-        - Tailer in Background
-        - Title & Description
-        - Movie Suggestionsq
-            - Movie Lists * N
+  - Header
+  - Main Movie
+    - Tailer in Background
+    - Title & Description
+    - Movie Suggestionsq
+      - Movie Lists \* N
 - Netflix GPT
-    - Search Bar
-    - Movie Suggestions
+  - Search Bar
+  - Movie Suggestions
