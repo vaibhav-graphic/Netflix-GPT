@@ -26,3 +26,6 @@ export const SUPPORTED_LANGUAGE = [
   { identifier: "hindi", name: "Hindi" },
   { identifier: "spanish", name: "Spanish" },
 ];
+
+
+export const APIKEY = import.meta.env.VITE_OPENAI_API_KEY;

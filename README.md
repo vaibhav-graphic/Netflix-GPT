@@ -37,6 +37,10 @@
 - useTopRated custom hook
 - useUpcomingMovies custom hook
 - GPT Search Feature
+- GPT Search Page
+- GPT Search Bar
+- (*) Multi-language Feature in App
+- Integrate GPT APIS(get operations)
 
 # Features
 
