@@ -37,6 +37,14 @@ Currently, two official plugins are available:
 - update the store with trailer video data
 - Embeded the youtube video and make it autoplay and mute
 - tailwind class to make main container look awesome
+- Build Secondary Component
+- Build Movie List
+- Build Movie card
+- TMDB Image CDN
+- Made browse page amazing with tailwind css
+- usePopularMovie custom hook
+- useTopRated custom hook
+- useUpcomingMovies custom hook
 
 # Features
 
