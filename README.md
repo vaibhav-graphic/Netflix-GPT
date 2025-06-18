@@ -41,6 +41,13 @@
 - GPT Search Bar
 - (*) Multi-language Feature in App
 - Integrate GPT APIS(get operations)
+- get Open AI Api key
+- gpt Search API Call
+- fetch gptMovieSuggestions from TMDB
+- create gptSlice add data
+- reused movie list component  to make  movie suggestion container
+- Memoization
+- Make application Responsive
 
 # Features
 
